@@ -13,7 +13,7 @@ namespace Ejercicio_6
 
             
 
-            if (PrimerNumeroMayor(num1, num2)==true)
+            if (PrimerNumeroMayor(num1, num2))
             {
                 Console.WriteLine("El primer número es más grande");
             }
@@ -41,9 +41,6 @@ namespace Ejercicio_6
             }
 
                 }
-
-
-
 
     }
 }

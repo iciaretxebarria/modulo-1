@@ -6,7 +6,11 @@ namespace Ejercicio_9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Introduce una palabra:");
+            string palabra = Console.ReadLine().ToLower();
+            int vocales = Vocales(palabra);
+
+            Console.WriteLine("La palabra tiene "+vocales+ " vocales.");
         }
 
 
@@ -17,14 +21,12 @@ namespace Ejercicio_9
 
             for (int i = 0; i < palabra.Length; i++)
             {
-                char letra = (palabra[i]);  //palabra[i] siempre es Char?? 
+                char letra = palabra[i]; 
 
                 if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
                 {
                     sumaVocales++;
-
                 }
-
             }
 
             return sumaVocales;

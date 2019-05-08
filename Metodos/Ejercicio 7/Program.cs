@@ -12,7 +12,7 @@ namespace Ejercicio_7
                 Console.WriteLine("Introduce un año:");
                 year = Convert.ToInt32(Console.ReadLine());
 
-                if (year!=0&&Bisiesto(year) == true)
+                if (year!=0&&Bisiesto(year))
                 {
 
                     Console.WriteLine("El año " + year + " es bisiesto");
