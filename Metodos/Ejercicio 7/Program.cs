@@ -30,10 +30,6 @@ namespace Ejercicio_7
 
         //¿No es mejor usar un while?Después de pedirle, mientras el valor sea distinto a cero, se repite. 
 
-
-
-
-
         public static bool Bisiesto(int numero)
 
         {

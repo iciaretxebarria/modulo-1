@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 3y4", "Metodos\Ejercicio 3y4.csproj", "{0634C7EF-7D10-40B9-AB18-032EF57E5FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 3y4", "Metodos\Ejercicio 3y4.csproj", "{0634C7EF-7D10-40B9-AB18-032EF57E5FFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 1y2", "Ejercicio 1y2\Ejercicio 1y2.csproj", "{523E48E7-7AA1-4E49-9196-0760A8C5AD95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 1y2", "Ejercicio 1y2\Ejercicio 1y2.csproj", "{523E48E7-7AA1-4E49-9196-0760A8C5AD95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 5", "Ejercicio 5\Ejercicio 5.csproj", "{2417FC8D-BD8C-47A3-BBA6-83DE9BB5A262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 5", "Ejercicio 5\Ejercicio 5.csproj", "{2417FC8D-BD8C-47A3-BBA6-83DE9BB5A262}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 6", "Ejercicio 6\Ejercicio 6.csproj", "{CEECD812-A468-429B-84FE-4C2CBF4DA13C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 6", "Ejercicio 6\Ejercicio 6.csproj", "{CEECD812-A468-429B-84FE-4C2CBF4DA13C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 7", "Ejercicio 7\Ejercicio 7.csproj", "{E60B2331-B4C1-466C-AC68-58FA13289D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 7", "Ejercicio 7\Ejercicio 7.csproj", "{E60B2331-B4C1-466C-AC68-58FA13289D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 8", "Ejercicio 8\Ejercicio 8.csproj", "{B8A83082-D9F0-44C9-9BD6-ABA857A69FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 9", "Ejercicio 9\Ejercicio 9.csproj", "{E9F18C99-A435-477E-8D30-8D64370294FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{E60B2331-B4C1-466C-AC68-58FA13289D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E60B2331-B4C1-466C-AC68-58FA13289D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E60B2331-B4C1-466C-AC68-58FA13289D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A83082-D9F0-44C9-9BD6-ABA857A69FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A83082-D9F0-44C9-9BD6-ABA857A69FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A83082-D9F0-44C9-9BD6-ABA857A69FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A83082-D9F0-44C9-9BD6-ABA857A69FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F18C99-A435-477E-8D30-8D64370294FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F18C99-A435-477E-8D30-8D64370294FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F18C99-A435-477E-8D30-8D64370294FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F18C99-A435-477E-8D30-8D64370294FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

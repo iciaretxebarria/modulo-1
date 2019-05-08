@@ -8,15 +8,15 @@ namespace Ejercicio_5
 
 
         {
-            int num1;
-            int num2;
+            double num1;
+            double num2;
         
             do
             {
                 Console.WriteLine("Introduce un número:");
-                num1 = Convert.ToInt32(Console.ReadLine());
+                num1 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Introduce otro número:");
-                num2 = Convert.ToInt32(Console.ReadLine());
+                num2 = Convert.ToDouble(Console.ReadLine());
 
                 if (num2!=0)
                 {
@@ -28,7 +28,7 @@ namespace Ejercicio_5
 
         }
 
-        public static int Division(int num1, int num2)
+        public static double Division(double num1, double num2)
         {
             return num1 / num2;
         }
