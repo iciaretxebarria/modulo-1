@@ -29,10 +29,7 @@ namespace Ejercicio_10
                 {
                     contador++;
                 }
-
             }
-
-
             return contador;
         }
     }

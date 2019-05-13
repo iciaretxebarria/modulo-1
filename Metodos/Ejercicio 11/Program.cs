@@ -9,8 +9,6 @@ namespace Ejercicio_11
             Console.WriteLine("Introduce una palabra:");
             string palabra = Console.ReadLine();
             string reves = Vuelta(palabra);
-
-
             Console.WriteLine(reves);
         }
 
@@ -20,12 +18,9 @@ namespace Ejercicio_11
         {
 
             string reves = "";
-            for (int i = palabra.Length; i > 0; i--)
+            for (int i = palabra.Length-1; i >= 0; i--)
             {
-                reves += palabra.Substring(i - 1, 1);   //NO puedo añadirle directamente palabra[i]¿? 
-
-                //Substring(palabra[i - 1], 1)
-
+                reves += palabra[i];  
             }
 
             return reves;
