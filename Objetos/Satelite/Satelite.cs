@@ -40,23 +40,22 @@ namespace Satelite
         //MÉTODOS EJERCICIO
 
         public void VariaAltura(double desplazamiento)
-        {
-            if (desplazamiento>0)
-            {
-                distancia_tierra += desplazamiento;
-            }
-            else
-            {
-                distancia_tierra -= desplazamiento;
-            }
 
+        {
+            distancia_tierra += desplazamiento;
+            if (distancia_tierra < 0)
+            {
+                Console.WriteLine("No puede bajar tanto");
+                distancia_tierra = 0;
+
+            }
         }
 
 
         public bool EnOrbita()
 
         {
-            if (distancia_tierra==0)
+            if (distancia_tierra == 0)
             {
                 return false;
             }
@@ -68,14 +67,13 @@ namespace Satelite
         }
 
 
-        public void VariaPosicion(double variap,double variam)
+        public void VariaPosicion(double variap, double variam)
 
         {
-            paralelo = variap;
-            meridiano = variam;
+            paralelo += variap;
+            meridiano += variam;
         }
 
 
     }
-
 }

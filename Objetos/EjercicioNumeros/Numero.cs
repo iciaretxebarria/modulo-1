@@ -37,15 +37,15 @@ namespace EjercicioNumeros
 
         //OTROS MÉTODOS
 
-        public int Aniade()
+        public void Aniade()
         {
-            return valor++;
+            valor++;
         }
 
-        public int Resta()
+        public void Resta()
 
         {
-            return valor--;
+            valor--;
 
         }
 
@@ -63,7 +63,7 @@ namespace EjercicioNumeros
             return valor * 3;
         }
 
-        public void SetNumero()  //public void o public int¿?
+        public void SetNumero()
 
         {
             valor = 0;
