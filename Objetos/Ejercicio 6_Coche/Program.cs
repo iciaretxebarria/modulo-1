@@ -8,6 +8,10 @@ namespace Ejercicio_6_Coche
         {
             Coche fantastico = new Coche("nissan", "primera");
             fantastico.MostrarInfo();
+
+            Coche coche2 = new Coche();
+            coche2.MostrarInfo();
+
         }
     }
 }

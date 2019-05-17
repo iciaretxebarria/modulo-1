@@ -31,16 +31,21 @@ namespace Ejercicio_7_Consumo
 
         //MÉTODOS EJERCICIO 7
 
-        public double GetTiempo()
+        public string GetTiempo()
 
         {
-            return kms / vmed;
+            double horas = kms / vmed;
+            double minutos = Convert.ToInt32(horas / 60);
+            int segundos = Convert.ToInt32(minutos % 60);
+            int h = Convert.ToInt32(kms / vmed);
+
+            return h + ": " + minutos + ": " + segundos;
         }
 
         public double ConsumoMedio()
 
         {
-            return (litros / kms)*100;
+            return (litros / kms) * 100;
 
         }
 
@@ -50,27 +55,32 @@ namespace Ejercicio_7_Consumo
         public double ConsumoEuros()
 
         {
-            switch (tipo)
+            switch (tipo.ToLower())
             {
                 case "Gasolina 95":
-                    return (ConsumoMedio()*1.14);
+                    return (ConsumoMedio() * 1.14);
                     break;
 
                 case "Gasolina 98":
-                    return (ConsumoMedio()*1.25);
-                    break;
-
-                case "Diesel":
-                    return (ConsumoMedio()*1.04);
+                    return (ConsumoMedio() * 1.25);
                     break;
 
                 default:
-                    return 0;
+                    return (ConsumoMedio() * 1.04);
                     break;
             }
         }
 
-        public void
+        public void MostrarInfo()
+
+        {
+            Console.WriteLine("Kms realizados: " + kms);
+            Console.WriteLine("Listros consumidos: " + litros);
+            Console.WriteLine("Velocidad media: " + vmed);
+            Console.WriteLine("Tipo de combustible: " + tipo);
+            Console.WriteLine("Consumo Medio en Litros: " + ConsumoMedio());
+            Console.WriteLine("Consumo Medio en Euros: " + ConsumoEuros());
+        }
 
 
 

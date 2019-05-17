@@ -14,6 +14,8 @@ namespace Ejercicio_6_Coche
         //Constructores
         public Coche()
         {
+            marca = "Renault";
+            modelo = "Laguna";
 
         }
 

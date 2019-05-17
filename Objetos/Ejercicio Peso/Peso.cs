@@ -7,8 +7,8 @@ namespace Ejercicio_Peso
     class Peso
     {
         //ATRIBUTO
-        private double peso;
-        private string medida;
+        private double kilos;
+        //private string medida; MAL TIENE K ESTAR EN KILOS
 
         //CONSTRUCTORES
 
